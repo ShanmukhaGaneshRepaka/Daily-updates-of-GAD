@@ -13,7 +13,7 @@ justify-content: space-between;
 background-color: rgb(235, 189, 159);
 height: 100px;
 
-  
+  position: relative;
 
 
 border-radius: 5px;
@@ -53,6 +53,7 @@ padding: 0 30px ;
 
   background-color: lightcoral;
   
+  
 }
 
 .image-container{
@@ -64,7 +65,7 @@ padding: 0 30px ;
   background-color: rgb(218, 188, 188);
   padding: 20px ;
   margin: 10px 0;
-  min-height: 400px;        /* 👈 you can change this */
+  min-height: 600px;        /* 👈 you can change this */
   width: 100%;              /* ensures full width */
   box-sizing: border-box;   /* ensures padding doesn’t break layout */
   gap: 20px;   
@@ -73,12 +74,13 @@ padding: 0 30px ;
 }
 .imgstyle{
   display: flex;
+  flex-direction: column;
 border:none;
     width: 250px;
   height: 400px;
   border-radius: 3px;
   background-color: #fff;
-  overflow: hidden; /* hides overflow if image goes out */
+ 
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -105,9 +107,8 @@ border:none;
  
 }
 
-.searchtextbox{
-
-   border-radius: 5px solid rgb(194, 25, 25);
+.searchbox{
+  display: flex;
 }
 .searchtextbox{
   width: 400px;
@@ -146,6 +147,10 @@ border:none;
   margin:30px 10px;
   border:none; 
 }
+.navelement:hover{
+  background-color: rgb(72, 115, 163);
+  transition: scale(0.9);
+}
  
 
 .navbar{
@@ -156,4 +161,11 @@ border:none;
 
   background-color: rgb(235, 189, 159);
 
+}
+.searchimg{
+  cursor: pointer;
+  margin-right: 80px;
+}
+.searchimg:hover{
+  transform: scale(0.9);
 }

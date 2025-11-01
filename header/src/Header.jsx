@@ -1,5 +1,6 @@
 import React from 'react'
 import imghed3 from './assets/headerimages/imghed3.jpg';
+import searchicon from './assets/headerimages/searchicon.jpg';
 import './App.css'
 const Header = () => {
   return (
@@ -22,16 +23,20 @@ const Header = () => {
      </div>
       <div className="navbar">
 
-              <div className='navelement'>Logo</div>
-             <div className='navelement'> Menu</div>
-              <div className='navelement'>Logo</div>
-             <div className='navelement'>Menu</div>
+              <div className='navelement'>Home</div>
+             <div className='navelement'> Gents</div>
+              <div className='navelement'>Ladies</div>
+             <div className='navelement'>Kids</div>
            </div>
 
  <div className="header-center">
 
     <div className='searchbox'> 
-          <input className='searchtextbox' type="text" placeholder='Search Here'></input>
+          <input className='searchtextbox' type="text" placeholder='Search Here'>
+
+          
+          </input>
+          <img className='searchimg' src={searchicon} alt="Icon" width="30px" height="40px" />
 
     </div>
   

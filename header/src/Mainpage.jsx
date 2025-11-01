@@ -15,19 +15,24 @@ const Mainpage = () => {
         <div className='image-container'>
         <div className="imgstyle">
         <img src={image1} alt="Hello image"   />
+                <h2>Casual shirt @500/-</h2>
       </div>
     
       <div className="imgstyle">
         <img src={image3} alt="Hello image" />
+         <h2>Casual shirt @500/-</h2>
       </div>
         <div className="imgstyle">
         <img src={image5} alt="Hello image"  />
+         <h2>Casual shirt @500/-</h2>
       </div>
         <div className="imgstyle">
         <img src={image2} alt="Hello image"   />
+         <h2>Casual shirt @500/-</h2>
       </div>
       <div className="imgstyle">
         <img src={image4} alt="Hello image" />
+         <h2>Casual shirt @500/-</h2>
       </div>
 
       
@@ -38,18 +43,24 @@ const Mainpage = () => {
         
       <div className="imgstyle">
         <img src={image2} alt="Hello image"   />
+         <h2>Casual shirt @500/-</h2>
+
       </div>
       <div className="imgstyle">
         <img src={image3} alt="Hello image" />
+         <h2>Casual shirt @500/-</h2>
       </div>
       <div className="imgstyle">
         <img src={image1} alt="Hello image"   />
+         <h2>Casual shirt @500/-</h2>
       </div>
         <div className="imgstyle">
         <img src={image5} alt="Hello image"  />
+         <h2>Casual shirt @500/-</h2>
       </div>
       <div className="imgstyle">
         <img src={image4} alt="Hello image" />
+         <h2>Casual shirt @500/-</h2>
       </div>
 
       
