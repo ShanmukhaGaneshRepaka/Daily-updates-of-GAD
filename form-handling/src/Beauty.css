@@ -1,0 +1,23 @@
+.beauty{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    min-height:400px;
+  
+        object-fit: contain; /* fills box, keeps ratio, no stretching */
+    border-radius: 3px;
+    cursor: pointer;
+   
+     object-fit: cover;
+     background-color: rosybrown;
+     color:white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 100px auto;
+     height: 600px;
+     width: 100vw;
+     font-size: 30px;
+     position: absolute;
+     
+}
